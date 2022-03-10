@@ -1,0 +1,13 @@
+server:
+  port: 7055
+  
+spring:
+  application:
+    name: one-to-one-client
+  
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: one-to-one-with-cache
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password: HR
+    url: jdbc:oracle:thin:@10.90.1.105:1521/DEV
+    username: HR
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      format_sql: true
+
+server:
+  port:
+    7045
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8762/eureka

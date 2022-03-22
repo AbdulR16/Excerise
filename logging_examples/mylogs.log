@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-14T14:28:54</date>
+  <millis>1639472334499</millis>
+  <sequence>0</sequence>
+  <logger>com.example.demo.Applications</logger>
+  <level>SEVERE</level>
+  <class>com.example.demo.Applications</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2.severe message</message>
+</record>
+<record>
+  <date>2021-12-14T14:28:54</date>
+  <millis>1639472334519</millis>
+  <sequence>1</sequence>
+  <logger>com.example.demo.Applications</logger>
+  <level>WARNING</level>
+  <class>com.example.demo.Applications</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>1.warning message</message>
+</record>
+</log>
